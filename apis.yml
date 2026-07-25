@@ -1,7 +1,24 @@
 aid: connectbiopharm
-name: connectbiopharm
-description: connectbiopharm is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/connectbiopharm.png
+name: Connect Biopharma
+description: Connect Biopharma is a clinical-stage biopharmaceutical company headquartered in San
+  Diego, California, dedicated to transforming care for patients with inflammatory diseases such as
+  asthma and COPD. Its lead drug candidate, rademikibart (CBP-201), is an antibody targeting IL-4Ra
+  in Phase 2 clinical development for acute asthma and COPD exacerbations. Surfaced as a portfolio
+  company of the venture firm Qiming and added to the API Evangelist network, the company operates in
+  the pharmaceutical and biotechnology sector and publishes no public developer portal, API, or
+  technical documentation.
 url: https://raw.githubusercontent.com/api-evangelist/connectbiopharm/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biopharmaceutical
+- Pharmaceuticals
+- Biotechnology
+- Clinical-Stage
+- Inflammatory Diseases
+- Respiratory
+- Asthma
+- COPD
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/connectbiopharm-domain-security.yml
 - type: Website
-  url: https://connectbiopharm.com
+  url: https://www.connectbiopharma.com
+- type: PrivacyPolicy
+  url: https://www.connectbiopharma.com/privacy-policy
+- type: TermsOfService
+  url: https://www.connectbiopharma.com/terms-and-conditions
+- type: Support
+  url: https://www.connectbiopharma.com/contact
+- type: Blog
+  url: https://www.connectbiopharma.com/news-media
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
